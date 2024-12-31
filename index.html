@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>이준서의 생일</title>
+    <title>B-day Date</title>
     <style>
         * {
             margin: 0;
@@ -13,7 +13,7 @@
 
         body {
             font-family: 'Apple SD Gothic Neo', sans-serif;
-            background-color: #fef3f6;
+            background-color: #fff0f5;
             display: flex;
             min-height: 100vh;
             justify-content: center;
@@ -30,17 +30,10 @@
             max-width: 500px;
             width: 100%;
             margin: 20px;
-            animation: float 3s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0% { transform: translateY(0px); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0px); }
         }
 
         h1 {
-            color: #ff6b9c;
+            color: #ff69b4;
             margin-bottom: 30px;
             font-size: 2.5em;
             font-weight: 700;
@@ -53,15 +46,14 @@
             word-break: keep-all;
         }
 
-        .message {
-            font-size: 1.2em;
-            line-height: 1.6;
+        .sub-title {
             color: #666;
-            margin-bottom: 30px;
+            font-size: 1.2em;
+            margin: 20px 0;
         }
 
         .details {
-            background: #fff4f8;
+            background: #fff0f5;
             padding: 20px;
             border-radius: 15px;
             margin: 20px 0;
@@ -76,34 +68,35 @@
         .cake {
             font-size: 3em;
             margin: 20px 0;
-            animation: bounce 2s ease infinite;
         }
 
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+        .emoji-footer {
+            margin-top: 30px;
+            font-size: 1.5em;
         }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>BIRTHDAY 🎈</h1>
+        <h1>B-day Date 💋</h1>
         
-        <div class="message">
-            <h2>이준서</h2>
-            <p>1월 1일의 주인공 ✨</p>
-        </div>
+        <h2>1월 1일의 주인공,<br>이준서</h2>
+        
+        <p class="sub-title">Happy JJ's day! 🎈 🎉</p>
 
         <div class="cake">🎂</div>
 
         <div class="details">
-            <p>📅 2025. 1. 1</p>
-            <p>⏰ PM 1:20</p>
-            <p>📍 서울 강남구 신사동 668-25</p>
+            <p>📅 2025년 1월 1일</p>
+            <p>⏰ 오후 1시 20분</p>
+            <p>💝 두근두근 특별한 하루</p>
+            <p>📍 강남구 신사동 668-25</p>
         </div>
         
-        <div style="margin-top: 30px; font-size: 1.5em;">
-            🎁
+        <div class="emoji-footer">
+            <span>💙</span>
+            <span>💝</span>
+            <span>💐</span>
         </div>
     </div>
 </body>
